@@ -8,4 +8,3 @@ EnvironmentFile=/etc/default/AirVideo
 ExecStart=/opt/AirVideo/AirVideoServerHD --config=/opt/AirVideo/Server.properties
 [Install]
 WantedBy=default.target
-#this is test
