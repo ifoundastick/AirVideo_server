@@ -1,0 +1,11 @@
+[Unit]
+Description=Start AirVideo Service
+After=network.target
+[Service]
+User=frank
+Group=frank
+EnvironmentFile=/etc/default/AirVideo
+ExecStart=/opt/AirVideo/AirVideoServerHD --config=/opt/AirVideo/Server.properties
+[Install]
+WantedBy=default.target
+#this is test
